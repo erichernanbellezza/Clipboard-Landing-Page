@@ -1,0 +1,368 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+main {
+	background-image: url(../images/mobile.PNG);
+	background-repeat: no-repeat;
+	font-family: "Bai Jamjuree";
+}
+main .buttonIos {
+	background: #26baa4;
+	color: white;
+	padding: 1.5vh 0vw 1.5vh 0vw;
+	width: 70%;
+	margin-left: 15vw;
+	margin-top: 3vh;
+	border-radius: 30px;
+	border: none;
+}
+main .buttonMac {
+	background: #6173ff;
+	color: white;
+	padding: 1.5vh 0vw 1.5vh 0vw;
+	width: 70%;
+	margin-left: 15vw;
+	margin-top: 2vh;
+	border-radius: 30px;
+	border: none;
+}
+main .buttonMac:hover {
+	background: #9ca7f7;
+}
+main .buttonIos:hover {
+	background: #70e1d0;
+}
+main h2 {
+	font-size: 1.5rem;
+	width: 80%;
+	text-align: center;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+}
+main p {
+	width: 80%;
+	text-align: center;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+}
+main .primerContainer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-bottom: 10vh;
+}
+main .primerContainer .imageLogo {
+	margin: 10vh 0 6vh 37vw;
+	width: 30vw;
+}
+main .primerContainer h1 {
+	font-size: 1.5rem;
+	width: 80%;
+	text-align: center;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
+}
+main .segundoContainer {
+	margin-bottom: 12vh;
+}
+main .segundoContainer img {
+	width: 75vw;
+	margin: 4vh 0vw 4vh 13vw;
+}
+main .tercerContainer:nth-child(3) img {
+	width: 75vw;
+	margin: 4vh 0vw 4vh 13vw;
+}
+main .tercerContainer .empresas {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin: 5vh 0vw 8vh 0vw;
+}
+main .tercerContainer .empresas img {
+	margin-left: 35vw;
+	width: 30vw;
+}
+main .tercerContainer .imgText {
+	width: 20vw !important;
+	margin: 4vh 0 3vh 40vw !important;
+}
+@media screen and (min-width: 425px) {
+	main {
+		background-size: 125%;
+	}
+}
+@media screen and (min-width: 768px) {
+	main .primerContainer .imageLogo {
+		margin-left: 35vw;
+	}
+	main .buttonIos {
+		width: 40vw;
+		margin-left: 30vw;
+	}
+	main .buttonMac {
+		width: 40vw;
+		margin-left: 30vw;
+	}
+}
+@media screen and (min-width: 1024px) {
+	main {
+		background-image: url(../images/desktop.PNG);
+	}
+	main .botones {
+		width: 50%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		margin: 5vh 0vw 5vh 20vw;
+	}
+	main .botones .buttonIos {
+		width: 20vw;
+		margin-left: 10vw;
+	}
+	main .botones .buttonMac {
+		width: 20vw;
+		height: 5vh;
+		margin-left: 2vw;
+		margin-top: 3vh;
+	}
+	main .primerContainer .imageLogo {
+		width: 15vw;
+		margin-left: 42vw;
+	}
+	main .primerContainer h1 {
+		font-size: 2rem;
+	}
+	main h2 {
+		font-size: 1.6rem;
+	}
+	main p {
+		width: 60%;
+		margin-left: 20vw;
+	}
+	main .segundoContainerPrimerItem {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	main .segundoContainerPrimerItem .segundoContainerPrimerItem:nth-child(2) {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	main .segundoContainerPrimerItem img {
+		width: 50vw;
+		margin-left: 10vw;
+	}
+	main .segundoContainerPrimerItem .descripcionDesktop {
+		margin-top: 5vh;
+	}
+	main .segundoContainerPrimerItem .descripcionDesktop h2 {
+		margin-left: 5vw;
+		width: 60%;
+	}
+	main .segundoContainerPrimerItem .descripcionDesktop p {
+		margin-left: 5vw;
+	}
+	main .tercerContainerPrimerItem {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		margin-left: 5vw;
+	}
+	main .tercerContainerPrimerItem .imgText {
+		width: 5vw !important;
+		height: 5vh;
+		margin-left: 10.5vw !important;
+	}
+	main .tercerContainerPrimerItem h2 {
+		margin-left: 0vw;
+	}
+	main .tercerContainerPrimerItem p {
+		margin-left: 3vw;
+	}
+	main .tercerContainerPrimerItem .lista {
+		width: 50%;
+	}
+	main .tercerContainer .empresas {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		margin-left: 10vw;
+	}
+	main .tercerContainer .empresas img {
+		width: 10vw;
+		margin-left: 5vw;
+	}
+}
+@media screen and (min-width: 1440px) {
+	main .segundoContainerPrimerItem .descripcionDesktop {
+		margin-top: 12vh;
+	}
+	main .tercerContainer .tercerContainerPrimerItem .lista {
+		width: 37%;
+	}
+}
+@media screen and (min-width: 1680px) {
+	main .tercerContainer .tercerContainerPrimerItem {
+		margin-left: 2vw;
+	}
+	main .tercerContainer .tercerContainerPrimerItem .lista {
+		width: 45%;
+	}
+	main p {
+		font-size: 1.4rem !important;
+	}
+	main button {
+		font-size: 1.1rem;
+	}
+}
+footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-top: 10vh;
+	background: #f1f1f1;
+}
+footer .logoFooter {
+	width: 13vw;
+	margin: 5vh 0vw 4vh 45vw;
+}
+footer a {
+	margin: 0vh 0vw 3vh 5vw;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	font-family: "Bai Jamjuree";
+}
+footer a:hover {
+	color: #26baa4;
+}
+footer .linksFooter {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+footer .iconosFooter {
+	width: 10vw;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	margin: 2vh 10vw 5vh 21vw;
+}
+footer .iconosFooter img {
+	margin-left: 10vw;
+}
+@media screen and (min-width: 425px) {
+	footer .logoFooter {
+		margin-left: 46vw;
+	}
+	footer .iconosFooter {
+		margin-left: 23vw;
+	}
+}
+@media screen and (min-width: 768px) {
+	footer .iconosFooter {
+		margin-left: 27vw;
+	}
+}
+@media screen and (min-width: 1024px) {
+	footer {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	footer .logoFooter {
+		width: 10vw;
+		margin: 3vh 5vw 5vh 5vw;
+	}
+	footer .linksFooter {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		width: 30vw !important;
+		height: 10vh;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-top: 3vh;
+	}
+	footer .linksFooter a {
+		width: 7vw;
+		margin: 2vh 0vw 0vh 3vw;
+		text-align: left;
+	}
+	footer .iconosFooter {
+		margin-top: 10vh;
+		margin-left: 20vw;
+	}
+	footer .iconosFooter img {
+		width: 3vw !important;
+		height: 3vh !important;
+		margin-left: 3vw;
+	}
+}
+@media screen and (min-width: 1440px) {
+	footer {
+		height: 25vh;
+	}
+	footer .logoFooter {
+		margin-top: 5vh;
+	}
+	footer .linksFooter {
+		margin-top: 5vh;
+		font-size: 1.2rem;
+	}
+	footer .iconosFooter {
+		margin-top: 12vh;
+	}
+}

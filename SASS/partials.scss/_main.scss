@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	background-image: url(../images/mobile.PNG);
+	background-repeat: no-repeat;
+	.buttonIos {
+		background: hsl(171, 66%, 44%);
+		color: white;
+		padding: 1.5vh 0vw 1.5vh 0vw;
+		width: 70%;
+		margin-left: 15vw;
+		margin-top: 3vh;
+		border-radius: 30px;
+		border: none;
+	}
+	.buttonMac {
+		background: hsl(233, 100%, 69%);
+		color: white;
+		padding: 1.5vh 0vw 1.5vh 0vw;
+		width: 70%;
+		margin-left: 15vw;
+		margin-top: 2vh;
+		border-radius: 30px;
+		border: none;
+	}
+	.buttonMac:hover {
+		background: hsl(233, 85%, 79%);
+	}
+	.buttonIos:hover {
+		background: hsl(171, 65%, 66%);
+	}
+	h2 {
+		font-size: 1.5rem;
+		width: 80%;
+		text-align: center;
+		margin-left: 10vw;
+		margin-bottom: 2vh;
+	}
+	p {
+		width: 80%;
+		text-align: center;
+		margin-left: 10vw;
+		margin-bottom: 2vh;
+	}
+	font-family: "Bai Jamjuree";
+	.primerContainer {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10vh;
+		.imageLogo {
+			margin: 10vh 0 6vh 37vw;
+			width: 30vw;
+		}
+		h1 {
+			font-size: 1.5rem;
+			width: 80%;
+			text-align: center;
+			margin-left: 10vw;
+			margin-bottom: 2vh;
+		}
+	}
+	.segundoContainer {
+		margin-bottom: 12vh;
+		img {
+			width: 75vw;
+			margin: 4vh 0vw 4vh 13vw;
+		}
+	}
+	.tercerContainer:nth-child(3) {
+		img {
+			width: 75vw;
+			margin: 4vh 0vw 4vh 13vw;
+		}
+	}
+	.tercerContainer {
+		.empresas {
+			display: flex;
+			flex-direction: column;
+			margin: 5vh 0vw 8vh 0vw;
+			img {
+				margin-left: 35vw;
+				width: 30vw;
+			}
+		}
+		.imgText {
+			width: 20vw !important;
+			margin: 4vh 0 3vh 40vw !important;
+		}
+	}
+}
+
+@media screen and (min-width: 425px) {
+	main {
+		background-size: 125%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	main {
+		.primerContainer {
+			.imageLogo {
+				margin-left: 35vw;
+			}
+		}
+
+		.buttonIos {
+			width: 40vw;
+			margin-left: 30vw;
+		}
+		.buttonMac {
+			width: 40vw;
+			margin-left: 30vw;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	main {
+		background-image: url(../../images/desktop.PNG);
+		.botones {
+			width: 50%;
+			display: flex;
+			flex-direction: row;
+			margin: 5vh 0vw 5vh 20vw;
+			.buttonIos {
+				width: 20vw;
+				margin-left: 10vw;
+			}
+			.buttonMac {
+				width: 20vw;
+				height: 5vh;
+				margin-left: 2vw;
+				margin-top: 3vh;
+			}
+		}
+		.primerContainer {
+			.imageLogo {
+				width: 15vw;
+				margin-left: 42vw;
+			}
+			h1 {
+				font-size: 2rem;
+			}
+		}
+
+		h2 {
+			font-size: 1.6rem;
+		}
+		p {
+			width: 60%;
+			margin-left: 20vw;
+		}
+		.segundoContainerPrimerItem {
+			display: flex;
+			flex-direction: row;
+			.segundoContainerPrimerItem:nth-child(2) {
+				display: flex;
+				flex-direction: column;
+			}
+			img {
+				width: 50vw;
+				margin-left: 10vw;
+			}
+			.descripcionDesktop {
+				margin-top: 5vh;
+				h2 {
+					margin-left: 5vw;
+					width: 60%;
+				}
+				p {
+					margin-left: 5vw;
+				}
+			}
+		}
+		.tercerContainerPrimerItem {
+			display: flex;
+			flex-direction: row;
+			margin-left: 5vw;
+			.imgText {
+				width: 5vw !important;
+				height: 5vh;
+				margin-left: 10.5vw !important;
+			}
+			h2 {
+				margin-left: 0vw;
+			}
+			p {
+				margin-left: 3vw;
+			}
+			.lista {
+				width: 50%;
+			}
+		}
+		.tercerContainer {
+			.empresas {
+				display: flex;
+				flex-direction: row;
+				margin-left: 10vw;
+				img {
+					width: 10vw;
+					margin-left: 5vw;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	main {
+		.segundoContainerPrimerItem {
+			.descripcionDesktop {
+				margin-top: 12vh;
+			}
+		}
+		.tercerContainer {
+			.tercerContainerPrimerItem {
+				.lista {
+					width: 37%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1680px) {
+	main {
+		.tercerContainer {
+			.tercerContainerPrimerItem {
+				margin-left: 2vw;
+				.lista {
+					width: 45%;
+				}
+			}
+		}
+		p {
+			font-size: 1.4rem !important;
+		}
+		button {
+			font-size: 1.1rem;
+		}
+	}
+}

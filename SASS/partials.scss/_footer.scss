@@ -1,0 +1,102 @@
+footer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10vh;
+	background: rgb(241, 241, 241);
+	.logoFooter {
+		width: 13vw;
+		margin: 5vh 0vw 4vh 45vw;
+	}
+	a {
+		margin: 0vh 0vw 3vh 5vw;
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		font-weight: 400;
+		font-family: "Bai Jamjuree";
+	}
+	a:hover {
+		color: hsl(171, 66%, 44%);
+	}
+	.linksFooter {
+		display: flex;
+		flex-direction: column;
+	}
+	.iconosFooter {
+		width: 10vw;
+		display: flex;
+		flex-direction: row;
+		margin: 2vh 10vw 5vh 21vw;
+		img {
+			margin-left: 10vw;
+		}
+	}
+}
+
+@media screen and (min-width: 425px) {
+	footer {
+		.logoFooter {
+			margin-left: 46vw;
+		}
+		.iconosFooter {
+			margin-left: 23vw;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	footer {
+		.iconosFooter {
+			margin-left: 27vw;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	footer {
+		display: flex;
+		flex-direction: row;
+		.logoFooter {
+			width: 10vw;
+			margin: 3vh 5vw 5vh 5vw;
+		}
+		.linksFooter {
+			display: flex;
+			flex-direction: row;
+			width: 30vw !important;
+			height: 10vh;
+			flex-wrap: wrap;
+			margin-top: 3vh;
+			a {
+				width: 7vw;
+				margin: 2vh 0vw 0vh 3vw;
+				text-align: left;
+			}
+		}
+		.iconosFooter {
+			margin-top: 10vh;
+			margin-left: 20vw;
+			img {
+				width: 3vw !important;
+				height: 3vh !important;
+				margin-left: 3vw;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	footer {
+		height: 25vh;
+		.logoFooter {
+			margin-top: 5vh;
+		}
+		.linksFooter {
+			margin-top: 5vh;
+			font-size: 1.2rem;
+		}
+		.iconosFooter {
+			margin-top: 12vh;
+		}
+	}
+}
